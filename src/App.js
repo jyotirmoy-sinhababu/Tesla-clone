@@ -5,7 +5,9 @@ import Main from './pages/main/Main';
 function App() {
   return (
     <div className='App'>
-      <Main />
+      <Routes>
+        <Route path='/' element={<Main />}></Route>
+      </Routes>
     </div>
   );
 }

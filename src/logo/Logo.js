@@ -1,5 +1,6 @@
 import React from 'react';
 import tesla from '../teslaImage/tesla.svg';
+import './logo.css';
 
 const Logo = () => {
   return (
